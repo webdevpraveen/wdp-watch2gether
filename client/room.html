@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Room</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h2>Room: <span id="roomId"></span></h2>
+
+  <input id="videoUrl" placeholder="Paste YouTube link" />
+  <button id="loadVideoBtn">Load Video</button>
+  
+<div style="display:flex; gap:20px; justify-content:center; margin-bottom:20px;">
+  <video id="localCam" autoplay muted playsinline width="160"></video>
+  <video id="remoteCam" autoplay playsinline width="160"></video>
+</div>
+
+  <div id="player"></div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script src="js/socket.js"></script>
+  <script src="js/room.js"></script>
+</body>
+</html>

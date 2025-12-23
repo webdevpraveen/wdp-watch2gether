@@ -1,0 +1,25 @@
+body {
+  background: #0b1220;
+  color: #e5e7eb;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+.center {
+  margin-top: 100px;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin: 10px;
+}
