@@ -1,5 +1,3 @@
-const socket = io(
-  location.hostname === "localhost"
-    ? "http://localhost:3000"
-    : "YOUR_BACKEND_URL_HERE"
-);
+cconst socket = io("https://wdp-watch2gether.onrender.com", {
+  transports: ["websocket"],
+});
